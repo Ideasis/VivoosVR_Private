@@ -61,6 +61,46 @@ namespace VivoosVR.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap A_52px {
+            get {
+                object obj = ResourceManager.GetObject("A_52px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Add_User {
+            get {
+                object obj = ResourceManager.GetObject("Add_User", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Back {
+            get {
+                object obj = ResourceManager.GetObject("Back", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap E_52px {
+            get {
+                object obj = ResourceManager.GetObject("E_52px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Ad,Karanlık Korkusu,Fear of Dark,الخوف من الظلام
         ///Açıklama,Karanlıktan korku üzerine hazırlanmış senaryo,Exposure therapy scenario for fear of dark,سيناريو بخصوص الخوف من الظلام 
         ///Senaryo Dizini,C:\Scenarios\FearOfDark\FearOfDark.exe
@@ -271,6 +311,46 @@ namespace VivoosVR.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Plus_50px {
+            get {
+                object obj = ResourceManager.GetObject("Plus_50px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Search_64px {
+            get {
+                object obj = ResourceManager.GetObject("Search_64px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Settings_64px {
+            get {
+                object obj = ResourceManager.GetObject("Settings_64px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Shutdown_52px {
+            get {
+                object obj = ResourceManager.GetObject("Shutdown_52px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Ad,Sosyal Anksiyete - Sınıfta ,Social anxiety (Classroom),صف للقلق الإجتماعي
         ///Açıklama,Sınıf ortamında sosyal anksiyete senaryosu,Presentation scenario in a classroom environment,تنظيم تقديم لصف المرضى الشباب الذين يعانون من القلق الإجتماعي 
         ///Senaryo Dizini,C:\Scenarios\Class_Ideasis\Class_Ideasis.exe
@@ -292,6 +372,16 @@ namespace VivoosVR.Properties {
         internal static System.Drawing.Bitmap Social_Anxiety_Classroom_Image {
             get {
                 object obj = ResourceManager.GetObject("Social_Anxiety_Classroom_Image", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap TR3 {
+            get {
+                object obj = ResourceManager.GetObject("TR3", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

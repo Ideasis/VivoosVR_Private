@@ -143,11 +143,11 @@ namespace VivoosVR
             commandsLayout.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 35F));
             commandsLayout.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 35F));
 
-            commandsLayout.Controls.Add(new Label() { Text = resourceManager.GetString("lblTurkishDescription", GlobalVariables.uiLanguage) }, 0, 0);
-            commandsLayout.Controls.Add(new Label() { Text = resourceManager.GetString("lblEnglishDescription", GlobalVariables.uiLanguage) }, 1, 0);
-            commandsLayout.Controls.Add(new Label() { Text = resourceManager.GetString("lblArabicDescription", GlobalVariables.uiLanguage) }, 2, 0);
-            commandsLayout.Controls.Add(new Label() { Text = resourceManager.GetString("lblCommands", GlobalVariables.uiLanguage) }, 3, 0);
-            commandsLayout.Controls.Add(new Label() { Text = resourceManager.GetString("lblStep", GlobalVariables.uiLanguage) }, 4, 0);
+            commandsLayout.Controls.Add(new Label() { Size = new Size(242, 20), Text = resourceManager.GetString("lblTurkishDescription", GlobalVariables.uiLanguage), ForeColor= Color.White, Font= new Font(Font.FontFamily,10,FontStyle.Bold) }, 0, 0);
+            commandsLayout.Controls.Add(new Label() { Size = new Size(242, 20), Text = resourceManager.GetString("lblEnglishDescription", GlobalVariables.uiLanguage), ForeColor = Color.White, Font = new Font(Font.FontFamily, 10, FontStyle.Bold) }, 1, 0);
+            commandsLayout.Controls.Add(new Label() { Size = new Size(242, 20), Text = resourceManager.GetString("lblArabicDescription", GlobalVariables.uiLanguage), ForeColor = Color.White, Font = new Font(Font.FontFamily, 10, FontStyle.Bold) }, 2, 0);
+            commandsLayout.Controls.Add(new Label() { Size = new Size(242, 20), Text = resourceManager.GetString("lblCommands", GlobalVariables.uiLanguage), ForeColor = Color.White, Font = new Font(Font.FontFamily, 10, FontStyle.Bold) }, 3, 0);
+            commandsLayout.Controls.Add(new Label() { Size = new Size(242, 20), Text = resourceManager.GetString("lblStep", GlobalVariables.uiLanguage), ForeColor = Color.White, Font = new Font(Font.FontFamily, 10, FontStyle.Bold) }, 4, 0);
             commandsLayout.Controls.Add(new Label() { Visible=false, Text = "ID" }, 5, 0);
 
             if (GlobalVariables.Is_Edit==false)

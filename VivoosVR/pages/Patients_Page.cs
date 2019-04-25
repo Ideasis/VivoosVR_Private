@@ -266,6 +266,10 @@ namespace VivoosVR
             }
         }
 
-       
+        private void patients_datagrid_CellFormatting(object sender, DataGridViewCellFormattingEventArgs e)
+        {
+            /*DataGridViewRow row = patients_datagrid.Rows[e.RowIndex];
+            row.DefaultCellStyle.BackColor = Color.Green;*/
+        }
     }
 }

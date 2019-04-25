@@ -242,7 +242,7 @@ namespace VivoosVR
                     db.SaveChanges();
                 }
             }
-            catch (Exception ex)
+            catch (Exception)
             {
             }
         }
@@ -363,6 +363,11 @@ namespace VivoosVR
             Change_Password_Page change_password = new Change_Password_Page();
             this.Hide();
             change_password.Show();
+        }
+
+        private void Login_Page_Load(object sender, EventArgs e)
+        {
+            this.ActiveControl = txtUsername;
         }
     }
 }

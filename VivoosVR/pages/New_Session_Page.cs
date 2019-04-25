@@ -126,6 +126,9 @@ namespace VivoosVR
             btnStart.Text = resourceManager.GetString("btnStart", GlobalVariables.uiLanguage);
             btnStart.Name = "startBtn";
             btnStart.UseColumnTextForButtonValue = true;
+            /*btnStart.DefaultCellStyle.BackColor = System.Drawing.Color.FromArgb(255, 167, 38);
+            btnStart.FlatStyle = FlatStyle.Flat;*/
+
         }
 
         private void txtSearch_TextChanged_1(object sender, EventArgs e)
