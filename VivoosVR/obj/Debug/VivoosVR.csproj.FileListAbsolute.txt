@@ -395,3 +395,4 @@ C:\Users\ilker\Documents\GitHub\Vivos - Design Experimental\VivoosVR\obj\Debug\V
 C:\Users\ilker\Documents\GitHub\Vivos - Design Experimental\VivoosVR\obj\Debug\VivoosVR.exe
 C:\Users\ilker\Documents\GitHub\Vivos - Design Experimental\VivoosVR\obj\Debug\VivoosVR.pdb
 C:\Users\ilker\Documents\GitHub\Vivos - Design Experimental\VivoosVR\obj\Debug\VivoosVR.Form1.resources
+C:\Users\ilker\Documents\GitHub\VivoosVR_Private\VivoosVR\obj\Debug\VivoosVR.Form1.resources

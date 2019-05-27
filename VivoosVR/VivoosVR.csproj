@@ -55,7 +55,7 @@
     </Win32Resource>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>logo2.ico</ApplicationIcon>
+    <ApplicationIcon>logo222.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="AppControl">
@@ -403,6 +403,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="logo2.ico" />
+    <Content Include="logo222.ico" />
     <Content Include="Model1.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>Model1.edmx</DependentUpon>
