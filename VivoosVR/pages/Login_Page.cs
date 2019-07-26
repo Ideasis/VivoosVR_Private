@@ -24,9 +24,12 @@ namespace VivoosVR
             //Page_Load();
             InitializeComponent();
             PlaceSelfOnSecondMonitor();
+            getres(GlobalVariables.uiLanguage);
+
         }
         protected void Page_Load()
         {
+            
             int flag = 0;
             string connectionString = "Data Source=.\\SQLEXPRESS; Integrated Security=True;";
             using (SqlConnection con = new SqlConnection(connectionString))
@@ -313,6 +316,7 @@ namespace VivoosVR
             btnEnglish.Text = resourceManager.GetString("btnEnglish", GlobalVariables.uiLanguage);
             btnTurkish.Text = resourceManager.GetString("btnTurkish", GlobalVariables.uiLanguage);
             btnArabic.Text = resourceManager.GetString("btnArabic", GlobalVariables.uiLanguage);
+            btnFrench.Text = resourceManager.GetString("btnFrench", GlobalVariables.uiLanguage);
             btnChangePassword.Text = resourceManager.GetString("btnChangePassword", GlobalVariables.uiLanguage);
             this.Text = resourceManager.GetString("formLogin", ci);
         }
@@ -368,6 +372,12 @@ namespace VivoosVR
         private void Login_Page_Load(object sender, EventArgs e)
         {
             this.ActiveControl = txtUsername;
+        }
+
+        private void btnFrench_Click(object sender, EventArgs e)
+        {
+            GlobalVariables.uiLanguage = new CultureInfo("fr-FR");
+            getres(GlobalVariables.uiLanguage);
         }
     }
 }

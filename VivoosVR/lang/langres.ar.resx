@@ -432,4 +432,13 @@
   <data name="msgCommandDeleted" xml:space="preserve">
     <value>Command deleted!</value>
   </data>
+  <data name="btnFrench" xml:space="preserve">
+    <value>French</value>
+  </data>
+  <data name="lblFrenchDescription" xml:space="preserve">
+    <value>French Description</value>
+  </data>
+  <data name="lblFrenchName" xml:space="preserve">
+    <value>French Name</value>
+  </data>
 </root>

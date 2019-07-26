@@ -432,4 +432,13 @@
   <data name="msgWrong" xml:space="preserve">
     <value>Kullanıcı adı veya şifre yanlış!</value>
   </data>
+  <data name="btnFrench" xml:space="preserve">
+    <value>Fransızca</value>
+  </data>
+  <data name="lblFrenchDescription" xml:space="preserve">
+    <value>Fransızca Açıklama</value>
+  </data>
+  <data name="lblFrenchName" xml:space="preserve">
+    <value>Fransızca Ad</value>
+  </data>
 </root>

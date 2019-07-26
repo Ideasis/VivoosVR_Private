@@ -41,8 +41,9 @@
             this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel7 = new System.Windows.Forms.TableLayoutPanel();
             this.lblEnglishName = new System.Windows.Forms.Label();
-            this.lblArabicName = new System.Windows.Forms.Label();
             this.lblTurkishName = new System.Windows.Forms.Label();
+            this.lblFrenchName = new System.Windows.Forms.Label();
+            this.lblArabicName = new System.Windows.Forms.Label();
             this.tableLayoutPanel11 = new System.Windows.Forms.TableLayoutPanel();
             this.lblAvailable = new System.Windows.Forms.Label();
             this.cbAvaliable = new System.Windows.Forms.CheckBox();
@@ -57,19 +58,22 @@
             this.txtScenarioPath = new System.Windows.Forms.TextBox();
             this.tableLayoutPanel9 = new System.Windows.Forms.TableLayoutPanel();
             this.lblEnglishDescription = new System.Windows.Forms.Label();
-            this.lblArabicDescription = new System.Windows.Forms.Label();
             this.lblTurkishDescription = new System.Windows.Forms.Label();
+            this.lblFrenchDescription = new System.Windows.Forms.Label();
+            this.lblArabicDescription = new System.Windows.Forms.Label();
             this.tableLayoutPanel10 = new System.Windows.Forms.TableLayoutPanel();
             this.txtEnglishDescription = new System.Windows.Forms.TextBox();
-            this.txtArabicDescription = new System.Windows.Forms.TextBox();
             this.txtTurkishDescription = new System.Windows.Forms.TextBox();
+            this.txtFrenchDescription = new System.Windows.Forms.TextBox();
+            this.txtArabicDescription = new System.Windows.Forms.TextBox();
             this.commandsLayout = new System.Windows.Forms.TableLayoutPanel();
             this.panel4 = new System.Windows.Forms.Panel();
             this.tableLayoutPanel12 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel8 = new System.Windows.Forms.TableLayoutPanel();
             this.txtEnglishName = new System.Windows.Forms.TextBox();
-            this.txtArabicName = new System.Windows.Forms.TextBox();
             this.txtTurkishName = new System.Windows.Forms.TextBox();
+            this.txtFrenchName = new System.Windows.Forms.TextBox();
+            this.txtArabicName = new System.Windows.Forms.TextBox();
             this.panel5 = new System.Windows.Forms.Panel();
             this.tableLayoutPanel13 = new System.Windows.Forms.TableLayoutPanel();
             this.panel6 = new System.Windows.Forms.Panel();
@@ -107,7 +111,6 @@
             this.panel8.SuspendLayout();
             this.tableLayoutPanel16.SuspendLayout();
             this.tableLayoutPanel5.SuspendLayout();
-            this.tableLayoutPanel3.SuspendLayout();
             this.panel9.SuspendLayout();
             this.tableLayoutPanel17.SuspendLayout();
             this.SuspendLayout();
@@ -128,7 +131,7 @@
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 80.76433F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 19.23567F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 82F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 33F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 52F));
             this.tableLayoutPanel1.Controls.Add(this.btnExit, 2, 0);
             this.tableLayoutPanel1.Controls.Add(this.btnBack, 1, 0);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Top;
@@ -149,7 +152,7 @@
             this.btnExit.Image = global::VivoosVR.Properties.Resources.Shutdown_52px;
             this.btnExit.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btnExit.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.btnExit.Location = new System.Drawing.Point(1322, 4);
+            this.btnExit.Location = new System.Drawing.Point(1303, 4);
             this.btnExit.Margin = new System.Windows.Forms.Padding(2);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(78, 47);
@@ -169,7 +172,7 @@
             this.btnBack.Image = global::VivoosVR.Properties.Resources.Back;
             this.btnBack.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btnBack.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.btnBack.Location = new System.Drawing.Point(1236, 4);
+            this.btnBack.Location = new System.Drawing.Point(1217, 4);
             this.btnBack.Name = "btnBack";
             this.btnBack.Size = new System.Drawing.Size(81, 47);
             this.btnBack.TabIndex = 3;
@@ -218,10 +221,10 @@
             this.btnSave.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold);
             this.btnSave.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnSave.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.btnSave.Location = new System.Drawing.Point(1263, 8);
+            this.btnSave.Location = new System.Drawing.Point(1263, 5);
             this.btnSave.Margin = new System.Windows.Forms.Padding(2);
             this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(150, 39);
+            this.btnSave.Size = new System.Drawing.Size(150, 46);
             this.btnSave.TabIndex = 0;
             this.btnSave.Text = "Kaydet";
             this.btnSave.UseVisualStyleBackColor = false;
@@ -236,10 +239,10 @@
             this.btnImport.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold);
             this.btnImport.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnImport.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.btnImport.Location = new System.Drawing.Point(1105, 8);
+            this.btnImport.Location = new System.Drawing.Point(1105, 5);
             this.btnImport.Margin = new System.Windows.Forms.Padding(2);
             this.btnImport.Name = "btnImport";
-            this.btnImport.Size = new System.Drawing.Size(150, 39);
+            this.btnImport.Size = new System.Drawing.Size(150, 46);
             this.btnImport.TabIndex = 1;
             this.btnImport.Text = "İçeri Aktar";
             this.btnImport.UseVisualStyleBackColor = false;
@@ -254,10 +257,10 @@
             this.btnDeleteCommands.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold);
             this.btnDeleteCommands.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnDeleteCommands.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.btnDeleteCommands.Location = new System.Drawing.Point(944, 8);
+            this.btnDeleteCommands.Location = new System.Drawing.Point(944, 5);
             this.btnDeleteCommands.Margin = new System.Windows.Forms.Padding(2);
             this.btnDeleteCommands.Name = "btnDeleteCommands";
-            this.btnDeleteCommands.Size = new System.Drawing.Size(150, 39);
+            this.btnDeleteCommands.Size = new System.Drawing.Size(150, 46);
             this.btnDeleteCommands.TabIndex = 2;
             this.btnDeleteCommands.Text = "Komutları Sil";
             this.btnDeleteCommands.UseVisualStyleBackColor = false;
@@ -278,8 +281,8 @@
             // 
             this.tableLayoutPanel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(179)))), ((int)(((byte)(66)))));
             this.tableLayoutPanel4.ColumnCount = 2;
-            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 61.97771F));
+            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 38.02229F));
             this.tableLayoutPanel4.Controls.Add(this.tableLayoutPanel7, 0, 0);
             this.tableLayoutPanel4.Controls.Add(this.tableLayoutPanel11, 1, 0);
             this.tableLayoutPanel4.Dock = System.Windows.Forms.DockStyle.Top;
@@ -293,18 +296,20 @@
             // tableLayoutPanel7
             // 
             this.tableLayoutPanel7.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.tableLayoutPanel7.ColumnCount = 3;
+            this.tableLayoutPanel7.ColumnCount = 4;
             this.tableLayoutPanel7.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.30426F));
             this.tableLayoutPanel7.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 49.69574F));
-            this.tableLayoutPanel7.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 227F));
+            this.tableLayoutPanel7.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 215F));
+            this.tableLayoutPanel7.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 199F));
             this.tableLayoutPanel7.Controls.Add(this.lblEnglishName, 0, 0);
-            this.tableLayoutPanel7.Controls.Add(this.lblArabicName, 1, 0);
             this.tableLayoutPanel7.Controls.Add(this.lblTurkishName, 0, 0);
+            this.tableLayoutPanel7.Controls.Add(this.lblFrenchName, 3, 0);
+            this.tableLayoutPanel7.Controls.Add(this.lblArabicName, 2, 0);
             this.tableLayoutPanel7.Location = new System.Drawing.Point(3, 14);
             this.tableLayoutPanel7.Name = "tableLayoutPanel7";
             this.tableLayoutPanel7.RowCount = 1;
             this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel7.Size = new System.Drawing.Size(657, 25);
+            this.tableLayoutPanel7.Size = new System.Drawing.Size(841, 25);
             this.tableLayoutPanel7.TabIndex = 12;
             // 
             // lblEnglishName
@@ -313,23 +318,11 @@
             this.lblEnglishName.AutoSize = true;
             this.lblEnglishName.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblEnglishName.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lblEnglishName.Location = new System.Drawing.Point(219, 4);
+            this.lblEnglishName.Location = new System.Drawing.Point(217, 4);
             this.lblEnglishName.Name = "lblEnglishName";
             this.lblEnglishName.Size = new System.Drawing.Size(88, 16);
             this.lblEnglishName.TabIndex = 2;
             this.lblEnglishName.Text = "İngilizce Ad";
-            // 
-            // lblArabicName
-            // 
-            this.lblArabicName.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.lblArabicName.AutoSize = true;
-            this.lblArabicName.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblArabicName.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lblArabicName.Location = new System.Drawing.Point(432, 4);
-            this.lblArabicName.Name = "lblArabicName";
-            this.lblArabicName.Size = new System.Drawing.Size(81, 16);
-            this.lblArabicName.TabIndex = 1;
-            this.lblArabicName.Text = "Arapça Ad";
             // 
             // lblTurkishName
             // 
@@ -343,6 +336,30 @@
             this.lblTurkishName.TabIndex = 0;
             this.lblTurkishName.Text = "Türkçe Ad";
             // 
+            // lblFrenchName
+            // 
+            this.lblFrenchName.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.lblFrenchName.AutoSize = true;
+            this.lblFrenchName.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFrenchName.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lblFrenchName.Location = new System.Drawing.Point(644, 4);
+            this.lblFrenchName.Name = "lblFrenchName";
+            this.lblFrenchName.Size = new System.Drawing.Size(98, 16);
+            this.lblFrenchName.TabIndex = 3;
+            this.lblFrenchName.Text = "Fransızca Ad";
+            // 
+            // lblArabicName
+            // 
+            this.lblArabicName.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.lblArabicName.AutoSize = true;
+            this.lblArabicName.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblArabicName.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lblArabicName.Location = new System.Drawing.Point(429, 4);
+            this.lblArabicName.Name = "lblArabicName";
+            this.lblArabicName.Size = new System.Drawing.Size(81, 16);
+            this.lblArabicName.TabIndex = 1;
+            this.lblArabicName.Text = "Arapça Ad";
+            // 
             // tableLayoutPanel11
             // 
             this.tableLayoutPanel11.Anchor = System.Windows.Forms.AnchorStyles.Left;
@@ -351,7 +368,7 @@
             this.tableLayoutPanel11.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 53.76884F));
             this.tableLayoutPanel11.Controls.Add(this.lblAvailable, 0, 0);
             this.tableLayoutPanel11.Controls.Add(this.cbAvaliable, 1, 0);
-            this.tableLayoutPanel11.Location = new System.Drawing.Point(721, 14);
+            this.tableLayoutPanel11.Location = new System.Drawing.Point(892, 14);
             this.tableLayoutPanel11.Name = "tableLayoutPanel11";
             this.tableLayoutPanel11.RowCount = 1;
             this.tableLayoutPanel11.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
@@ -420,11 +437,11 @@
             this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 55.82192F));
             this.tableLayoutPanel6.Controls.Add(this.btnSelectFile, 0, 0);
             this.tableLayoutPanel6.Controls.Add(this.lblThumbnail, 0, 0);
-            this.tableLayoutPanel6.Location = new System.Drawing.Point(721, 10);
+            this.tableLayoutPanel6.Location = new System.Drawing.Point(892, 5);
             this.tableLayoutPanel6.Name = "tableLayoutPanel6";
             this.tableLayoutPanel6.RowCount = 1;
             this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel6.Size = new System.Drawing.Size(292, 35);
+            this.tableLayoutPanel6.Size = new System.Drawing.Size(292, 45);
             this.tableLayoutPanel6.TabIndex = 3;
             // 
             // btnSelectFile
@@ -439,7 +456,7 @@
             this.btnSelectFile.Location = new System.Drawing.Point(135, 2);
             this.btnSelectFile.Margin = new System.Windows.Forms.Padding(2);
             this.btnSelectFile.Name = "btnSelectFile";
-            this.btnSelectFile.Size = new System.Drawing.Size(150, 31);
+            this.btnSelectFile.Size = new System.Drawing.Size(150, 41);
             this.btnSelectFile.TabIndex = 4;
             this.btnSelectFile.Text = "Dosya Seç";
             this.btnSelectFile.UseVisualStyleBackColor = false;
@@ -451,7 +468,7 @@
             this.lblThumbnail.AutoSize = true;
             this.lblThumbnail.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblThumbnail.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lblThumbnail.Location = new System.Drawing.Point(3, 9);
+            this.lblThumbnail.Location = new System.Drawing.Point(3, 14);
             this.lblThumbnail.Name = "lblThumbnail";
             this.lblThumbnail.Size = new System.Drawing.Size(97, 16);
             this.lblThumbnail.TabIndex = 3;
@@ -460,7 +477,7 @@
             // pictureBox2
             // 
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox2.Location = new System.Drawing.Point(721, 3);
+            this.pictureBox2.Location = new System.Drawing.Point(892, 3);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(200, 75);
             this.pictureBox2.TabIndex = 10;
@@ -472,7 +489,7 @@
             this.lblScenarioPath.AutoSize = true;
             this.lblScenarioPath.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblScenarioPath.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lblScenarioPath.Location = new System.Drawing.Point(721, 13);
+            this.lblScenarioPath.Location = new System.Drawing.Point(892, 13);
             this.lblScenarioPath.Name = "lblScenarioPath";
             this.lblScenarioPath.Size = new System.Drawing.Size(104, 16);
             this.lblScenarioPath.TabIndex = 5;
@@ -480,27 +497,29 @@
             // 
             // txtScenarioPath
             // 
-            this.txtScenarioPath.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txtScenarioPath.Location = new System.Drawing.Point(5, 5);
+            this.txtScenarioPath.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.txtScenarioPath.Location = new System.Drawing.Point(1155, 8);
             this.txtScenarioPath.Name = "txtScenarioPath";
-            this.txtScenarioPath.Size = new System.Drawing.Size(229, 20);
+            this.txtScenarioPath.Size = new System.Drawing.Size(273, 20);
             this.txtScenarioPath.TabIndex = 9;
             // 
             // tableLayoutPanel9
             // 
             this.tableLayoutPanel9.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.tableLayoutPanel9.ColumnCount = 3;
+            this.tableLayoutPanel9.ColumnCount = 4;
             this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 215F));
+            this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 216F));
+            this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 227F));
             this.tableLayoutPanel9.Controls.Add(this.lblEnglishDescription, 0, 0);
-            this.tableLayoutPanel9.Controls.Add(this.lblArabicDescription, 1, 0);
             this.tableLayoutPanel9.Controls.Add(this.lblTurkishDescription, 0, 0);
+            this.tableLayoutPanel9.Controls.Add(this.lblFrenchDescription, 3, 0);
+            this.tableLayoutPanel9.Controls.Add(this.lblArabicDescription, 2, 0);
             this.tableLayoutPanel9.Location = new System.Drawing.Point(3, 10);
             this.tableLayoutPanel9.Name = "tableLayoutPanel9";
             this.tableLayoutPanel9.RowCount = 1;
             this.tableLayoutPanel9.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel9.Size = new System.Drawing.Size(657, 35);
+            this.tableLayoutPanel9.Size = new System.Drawing.Size(883, 35);
             this.tableLayoutPanel9.TabIndex = 13;
             // 
             // lblEnglishDescription
@@ -509,23 +528,11 @@
             this.lblEnglishDescription.AutoSize = true;
             this.lblEnglishDescription.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblEnglishDescription.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lblEnglishDescription.Location = new System.Drawing.Point(224, 9);
+            this.lblEnglishDescription.Location = new System.Drawing.Point(223, 9);
             this.lblEnglishDescription.Name = "lblEnglishDescription";
             this.lblEnglishDescription.Size = new System.Drawing.Size(133, 16);
             this.lblEnglishDescription.TabIndex = 4;
             this.lblEnglishDescription.Text = "İngilizce Açıklama";
-            // 
-            // lblArabicDescription
-            // 
-            this.lblArabicDescription.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.lblArabicDescription.AutoSize = true;
-            this.lblArabicDescription.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblArabicDescription.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lblArabicDescription.Location = new System.Drawing.Point(445, 9);
-            this.lblArabicDescription.Name = "lblArabicDescription";
-            this.lblArabicDescription.Size = new System.Drawing.Size(126, 16);
-            this.lblArabicDescription.TabIndex = 3;
-            this.lblArabicDescription.Text = "Arapça Açıklama";
             // 
             // lblTurkishDescription
             // 
@@ -539,20 +546,46 @@
             this.lblTurkishDescription.TabIndex = 2;
             this.lblTurkishDescription.Text = "Türkçe Açıklama";
             // 
+            // lblFrenchDescription
+            // 
+            this.lblFrenchDescription.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.lblFrenchDescription.AutoSize = true;
+            this.lblFrenchDescription.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFrenchDescription.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lblFrenchDescription.Location = new System.Drawing.Point(659, 9);
+            this.lblFrenchDescription.Name = "lblFrenchDescription";
+            this.lblFrenchDescription.Size = new System.Drawing.Size(143, 16);
+            this.lblFrenchDescription.TabIndex = 5;
+            this.lblFrenchDescription.Text = "Fransızca Açıklama";
+            // 
+            // lblArabicDescription
+            // 
+            this.lblArabicDescription.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.lblArabicDescription.AutoSize = true;
+            this.lblArabicDescription.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblArabicDescription.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lblArabicDescription.Location = new System.Drawing.Point(443, 9);
+            this.lblArabicDescription.Name = "lblArabicDescription";
+            this.lblArabicDescription.Size = new System.Drawing.Size(126, 16);
+            this.lblArabicDescription.TabIndex = 3;
+            this.lblArabicDescription.Text = "Arapça Açıklama";
+            // 
             // tableLayoutPanel10
             // 
-            this.tableLayoutPanel10.ColumnCount = 3;
+            this.tableLayoutPanel10.ColumnCount = 4;
             this.tableLayoutPanel10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 213F));
+            this.tableLayoutPanel10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 226F));
             this.tableLayoutPanel10.Controls.Add(this.txtEnglishDescription, 0, 0);
-            this.tableLayoutPanel10.Controls.Add(this.txtArabicDescription, 1, 0);
             this.tableLayoutPanel10.Controls.Add(this.txtTurkishDescription, 0, 0);
+            this.tableLayoutPanel10.Controls.Add(this.txtFrenchDescription, 3, 0);
+            this.tableLayoutPanel10.Controls.Add(this.txtArabicDescription, 2, 0);
             this.tableLayoutPanel10.Location = new System.Drawing.Point(3, 3);
             this.tableLayoutPanel10.Name = "tableLayoutPanel10";
             this.tableLayoutPanel10.RowCount = 1;
             this.tableLayoutPanel10.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel10.Size = new System.Drawing.Size(657, 75);
+            this.tableLayoutPanel10.Size = new System.Drawing.Size(883, 75);
             this.tableLayoutPanel10.TabIndex = 14;
             // 
             // txtEnglishDescription
@@ -560,8 +593,24 @@
             this.txtEnglishDescription.Location = new System.Drawing.Point(225, 3);
             this.txtEnglishDescription.Multiline = true;
             this.txtEnglishDescription.Name = "txtEnglishDescription";
-            this.txtEnglishDescription.Size = new System.Drawing.Size(216, 69);
+            this.txtEnglishDescription.Size = new System.Drawing.Size(206, 69);
             this.txtEnglishDescription.TabIndex = 9;
+            // 
+            // txtTurkishDescription
+            // 
+            this.txtTurkishDescription.Location = new System.Drawing.Point(3, 3);
+            this.txtTurkishDescription.Multiline = true;
+            this.txtTurkishDescription.Name = "txtTurkishDescription";
+            this.txtTurkishDescription.Size = new System.Drawing.Size(206, 69);
+            this.txtTurkishDescription.TabIndex = 7;
+            // 
+            // txtFrenchDescription
+            // 
+            this.txtFrenchDescription.Location = new System.Drawing.Point(660, 3);
+            this.txtFrenchDescription.Multiline = true;
+            this.txtFrenchDescription.Name = "txtFrenchDescription";
+            this.txtFrenchDescription.Size = new System.Drawing.Size(206, 69);
+            this.txtFrenchDescription.TabIndex = 10;
             // 
             // txtArabicDescription
             // 
@@ -570,14 +619,6 @@
             this.txtArabicDescription.Name = "txtArabicDescription";
             this.txtArabicDescription.Size = new System.Drawing.Size(206, 69);
             this.txtArabicDescription.TabIndex = 8;
-            // 
-            // txtTurkishDescription
-            // 
-            this.txtTurkishDescription.Location = new System.Drawing.Point(3, 3);
-            this.txtTurkishDescription.Multiline = true;
-            this.txtTurkishDescription.Name = "txtTurkishDescription";
-            this.txtTurkishDescription.Size = new System.Drawing.Size(216, 69);
-            this.txtTurkishDescription.TabIndex = 7;
             // 
             // commandsLayout
             // 
@@ -611,8 +652,8 @@
             // 
             this.tableLayoutPanel12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(144)))), ((int)(((byte)(164)))), ((int)(((byte)(174)))));
             this.tableLayoutPanel12.ColumnCount = 2;
-            this.tableLayoutPanel12.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel12.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel12.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 61.97771F));
+            this.tableLayoutPanel12.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 38.02229F));
             this.tableLayoutPanel12.Controls.Add(this.tableLayoutPanel8, 0, 0);
             this.tableLayoutPanel12.Location = new System.Drawing.Point(0, 2);
             this.tableLayoutPanel12.Name = "tableLayoutPanel12";
@@ -624,42 +665,52 @@
             // tableLayoutPanel8
             // 
             this.tableLayoutPanel8.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.tableLayoutPanel8.ColumnCount = 3;
-            this.tableLayoutPanel8.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel8.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel8.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 215F));
+            this.tableLayoutPanel8.ColumnCount = 4;
+            this.tableLayoutPanel8.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.34014F));
+            this.tableLayoutPanel8.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 49.65986F));
+            this.tableLayoutPanel8.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 216F));
+            this.tableLayoutPanel8.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 222F));
             this.tableLayoutPanel8.Controls.Add(this.txtEnglishName, 0, 0);
-            this.tableLayoutPanel8.Controls.Add(this.txtArabicName, 1, 0);
             this.tableLayoutPanel8.Controls.Add(this.txtTurkishName, 0, 0);
+            this.tableLayoutPanel8.Controls.Add(this.txtFrenchName, 3, 0);
+            this.tableLayoutPanel8.Controls.Add(this.txtArabicName, 2, 0);
             this.tableLayoutPanel8.Location = new System.Drawing.Point(3, 21);
             this.tableLayoutPanel8.Name = "tableLayoutPanel8";
             this.tableLayoutPanel8.RowCount = 1;
             this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel8.Size = new System.Drawing.Size(657, 28);
+            this.tableLayoutPanel8.Size = new System.Drawing.Size(864, 28);
             this.tableLayoutPanel8.TabIndex = 13;
             // 
             // txtEnglishName
             // 
-            this.txtEnglishName.Location = new System.Drawing.Point(224, 3);
+            this.txtEnglishName.Location = new System.Drawing.Point(217, 3);
             this.txtEnglishName.Name = "txtEnglishName";
-            this.txtEnglishName.Size = new System.Drawing.Size(215, 20);
+            this.txtEnglishName.Size = new System.Drawing.Size(205, 20);
             this.txtEnglishName.TabIndex = 8;
-            // 
-            // txtArabicName
-            // 
-            this.txtArabicName.Location = new System.Drawing.Point(445, 3);
-            this.txtArabicName.Name = "txtArabicName";
-            this.txtArabicName.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.txtArabicName.Size = new System.Drawing.Size(209, 20);
-            this.txtArabicName.TabIndex = 7;
             // 
             // txtTurkishName
             // 
             this.txtTurkishName.Location = new System.Drawing.Point(3, 3);
             this.txtTurkishName.Name = "txtTurkishName";
-            this.txtTurkishName.Size = new System.Drawing.Size(215, 20);
+            this.txtTurkishName.Size = new System.Drawing.Size(208, 20);
             this.txtTurkishName.TabIndex = 6;
             this.txtTurkishName.TextChanged += new System.EventHandler(this.txtAd_TextChanged);
+            // 
+            // txtFrenchName
+            // 
+            this.txtFrenchName.Location = new System.Drawing.Point(644, 3);
+            this.txtFrenchName.Name = "txtFrenchName";
+            this.txtFrenchName.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.txtFrenchName.Size = new System.Drawing.Size(201, 20);
+            this.txtFrenchName.TabIndex = 9;
+            // 
+            // txtArabicName
+            // 
+            this.txtArabicName.Location = new System.Drawing.Point(428, 3);
+            this.txtArabicName.Name = "txtArabicName";
+            this.txtArabicName.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.txtArabicName.Size = new System.Drawing.Size(199, 20);
+            this.txtArabicName.TabIndex = 7;
             // 
             // panel5
             // 
@@ -675,8 +726,8 @@
             // tableLayoutPanel13
             // 
             this.tableLayoutPanel13.ColumnCount = 2;
-            this.tableLayoutPanel13.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel13.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel13.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 61.97771F));
+            this.tableLayoutPanel13.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 38.02229F));
             this.tableLayoutPanel13.Controls.Add(this.tableLayoutPanel9, 0, 0);
             this.tableLayoutPanel13.Controls.Add(this.tableLayoutPanel6, 1, 0);
             this.tableLayoutPanel13.Dock = System.Windows.Forms.DockStyle.Top;
@@ -702,8 +753,8 @@
             // 
             this.tableLayoutPanel14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(144)))), ((int)(((byte)(164)))), ((int)(((byte)(174)))));
             this.tableLayoutPanel14.ColumnCount = 2;
-            this.tableLayoutPanel14.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel14.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel14.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 61.97771F));
+            this.tableLayoutPanel14.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 38.02229F));
             this.tableLayoutPanel14.Controls.Add(this.tableLayoutPanel10, 0, 0);
             this.tableLayoutPanel14.Controls.Add(this.pictureBox2, 1, 0);
             this.tableLayoutPanel14.Dock = System.Windows.Forms.DockStyle.Top;
@@ -728,8 +779,8 @@
             // tableLayoutPanel15
             // 
             this.tableLayoutPanel15.ColumnCount = 2;
-            this.tableLayoutPanel15.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel15.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel15.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 61.97771F));
+            this.tableLayoutPanel15.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 38.02229F));
             this.tableLayoutPanel15.Controls.Add(this.lblScenarioExe, 0, 0);
             this.tableLayoutPanel15.Controls.Add(this.lblScenarioPath, 1, 0);
             this.tableLayoutPanel15.Dock = System.Windows.Forms.DockStyle.Top;
@@ -754,9 +805,11 @@
             // tableLayoutPanel16
             // 
             this.tableLayoutPanel16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(144)))), ((int)(((byte)(164)))), ((int)(((byte)(174)))));
-            this.tableLayoutPanel16.ColumnCount = 2;
-            this.tableLayoutPanel16.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 49.93036F));
-            this.tableLayoutPanel16.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.06964F));
+            this.tableLayoutPanel16.ColumnCount = 3;
+            this.tableLayoutPanel16.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 74.06172F));
+            this.tableLayoutPanel16.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25.93828F));
+            this.tableLayoutPanel16.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 283F));
+            this.tableLayoutPanel16.Controls.Add(this.txtScenarioPath, 2, 0);
             this.tableLayoutPanel16.Controls.Add(this.tableLayoutPanel5, 0, 0);
             this.tableLayoutPanel16.Controls.Add(this.tableLayoutPanel3, 1, 0);
             this.tableLayoutPanel16.Location = new System.Drawing.Point(0, 2);
@@ -780,15 +833,14 @@
             // 
             // tableLayoutPanel3
             // 
-            this.tableLayoutPanel3.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.tableLayoutPanel3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.tableLayoutPanel3.ColumnCount = 1;
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel3.Controls.Add(this.txtScenarioPath, 0, 0);
-            this.tableLayoutPanel3.Location = new System.Drawing.Point(956, 3);
+            this.tableLayoutPanel3.Location = new System.Drawing.Point(856, 3);
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
             this.tableLayoutPanel3.RowCount = 1;
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(239, 31);
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(293, 31);
             this.tableLayoutPanel3.TabIndex = 10;
             // 
             // panel9
@@ -887,10 +939,9 @@
             this.tableLayoutPanel15.PerformLayout();
             this.panel8.ResumeLayout(false);
             this.tableLayoutPanel16.ResumeLayout(false);
+            this.tableLayoutPanel16.PerformLayout();
             this.tableLayoutPanel5.ResumeLayout(false);
             this.tableLayoutPanel5.PerformLayout();
-            this.tableLayoutPanel3.ResumeLayout(false);
-            this.tableLayoutPanel3.PerformLayout();
             this.panel9.ResumeLayout(false);
             this.tableLayoutPanel17.ResumeLayout(false);
             this.tableLayoutPanel17.PerformLayout();
@@ -954,5 +1005,9 @@
         private System.Windows.Forms.TextBox txtEnglishName;
         private System.Windows.Forms.TextBox txtArabicName;
         private System.Windows.Forms.TextBox txtTurkishName;
+        private System.Windows.Forms.Label lblFrenchName;
+        private System.Windows.Forms.TextBox txtFrenchName;
+        private System.Windows.Forms.Label lblFrenchDescription;
+        private System.Windows.Forms.TextBox txtFrenchDescription;
     }
 }

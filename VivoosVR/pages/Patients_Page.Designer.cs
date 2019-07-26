@@ -121,8 +121,8 @@
             this.tableLayoutPanel4.ColumnCount = 4;
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 8F));
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 92F));
-            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 111F));
-            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 179F));
+            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 126F));
+            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 120F));
             this.tableLayoutPanel4.Controls.Add(this.txtSearch, 2, 0);
             this.tableLayoutPanel4.Controls.Add(this.lblSearch, 1, 0);
             this.tableLayoutPanel4.Location = new System.Drawing.Point(3, 3);
@@ -135,7 +135,7 @@
             // txtSearch
             // 
             this.txtSearch.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.txtSearch.Location = new System.Drawing.Point(103, 9);
+            this.txtSearch.Location = new System.Drawing.Point(146, 9);
             this.txtSearch.Name = "txtSearch";
             this.txtSearch.Size = new System.Drawing.Size(105, 20);
             this.txtSearch.TabIndex = 3;
@@ -148,12 +148,12 @@
             this.lblSearch.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.lblSearch.Image = global::VivoosVR.Properties.Resources.Search_64px;
             this.lblSearch.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblSearch.Location = new System.Drawing.Point(21, 10);
+            this.lblSearch.Location = new System.Drawing.Point(14, 10);
             this.lblSearch.Name = "lblSearch";
-            this.lblSearch.Size = new System.Drawing.Size(76, 18);
+            this.lblSearch.Size = new System.Drawing.Size(126, 18);
             this.lblSearch.TabIndex = 6;
             this.lblSearch.Text = "Arama";
-            this.lblSearch.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            this.lblSearch.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // panel3
             // 

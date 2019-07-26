@@ -165,6 +165,10 @@ namespace VivoosVR
                     {
                         commands_datagrid.Rows[i].Cells[1].Value = commandlist[i].ArabicDescription;
                     }
+                    else if (Convert.ToString(GlobalVariables.uiLanguage) == "fr-FR")
+                    {
+                        commands_datagrid.Rows[i].Cells[1].Value = commandlist[i].FrDescription;
+                    }
                 }
             }
         }
@@ -176,6 +180,7 @@ namespace VivoosVR
             btnStart.Text = resourceManager.GetString("btnStart", GlobalVariables.uiLanguage);
             btnStart.Name = "startBtn";
             btnStart.UseColumnTextForButtonValue = true;
+            btnStart.Width = 150;
         }
         public void socket()
         {
@@ -413,6 +418,10 @@ namespace VivoosVR
                             else if (Convert.ToString(GlobalVariables.uiLanguage) == "ar-SA")
                             {
                                 komut = commandList[0].ArabicDescription;
+                            }
+                            else if (Convert.ToString(GlobalVariables.uiLanguage) == "fr-FR")
+                            {
+                                komut = commandList[0].FrDescription;
                             }
                             komut_adımı = commandList[0].Step;
                             new_socket.Send(commandList[0].CommandText + "\r");

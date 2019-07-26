@@ -65,7 +65,7 @@
             this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 80.76433F));
             this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 19.23567F));
             this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 82F));
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 30F));
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 31F));
             this.tableLayoutPanel5.Controls.Add(this.btnExit, 2, 0);
             this.tableLayoutPanel5.Controls.Add(this.btnBack, 1, 0);
             this.tableLayoutPanel5.Dock = System.Windows.Forms.DockStyle.Top;
@@ -85,7 +85,7 @@
             this.btnExit.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnExit.Image = global::VivoosVR.Properties.Resources.Shutdown_52px;
             this.btnExit.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnExit.Location = new System.Drawing.Point(1325, 5);
+            this.btnExit.Location = new System.Drawing.Point(1324, 5);
             this.btnExit.Margin = new System.Windows.Forms.Padding(2);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(78, 47);
@@ -104,7 +104,7 @@
             this.btnBack.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnBack.Image = global::VivoosVR.Properties.Resources.Back;
             this.btnBack.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnBack.Location = new System.Drawing.Point(1239, 5);
+            this.btnBack.Location = new System.Drawing.Point(1238, 5);
             this.btnBack.Name = "btnBack";
             this.btnBack.Size = new System.Drawing.Size(81, 46);
             this.btnBack.TabIndex = 3;
@@ -154,8 +154,8 @@
             this.tableLayoutPanel4.ColumnCount = 4;
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 23.28767F));
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 76.71233F));
-            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 118F));
-            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 138F));
+            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 103F));
+            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 105F));
             this.tableLayoutPanel4.Controls.Add(this.txtSearch, 2, 0);
             this.tableLayoutPanel4.Controls.Add(this.lblSearch, 1, 0);
             this.tableLayoutPanel4.Location = new System.Drawing.Point(3, 13);
@@ -167,7 +167,7 @@
             // 
             // txtSearch
             // 
-            this.txtSearch.Location = new System.Drawing.Point(136, 3);
+            this.txtSearch.Location = new System.Drawing.Point(184, 3);
             this.txtSearch.Name = "txtSearch";
             this.txtSearch.Size = new System.Drawing.Size(95, 20);
             this.txtSearch.TabIndex = 3;
@@ -180,12 +180,12 @@
             this.lblSearch.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.lblSearch.Image = global::VivoosVR.Properties.Resources.Search_64px;
             this.lblSearch.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblSearch.Location = new System.Drawing.Point(54, 4);
+            this.lblSearch.Location = new System.Drawing.Point(47, 4);
             this.lblSearch.Name = "lblSearch";
-            this.lblSearch.Size = new System.Drawing.Size(76, 18);
+            this.lblSearch.Size = new System.Drawing.Size(131, 18);
             this.lblSearch.TabIndex = 6;
             this.lblSearch.Text = "Arama";
-            this.lblSearch.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            this.lblSearch.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // newsession_datagrid
             // 

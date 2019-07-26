@@ -202,15 +202,15 @@ namespace VivoosVR
                         file1.FileName = exported_asset.Name;
                         if (file1.ShowDialog() == DialogResult.OK)
                         {
-                            data = data + resourceManager.GetString("lblName", GlobalVariables.uiLanguage) + "," + exported_asset.Name + "," + exported_asset.EnName + "," + exported_asset.ArabicName + Environment.NewLine;
-                            data = data + resourceManager.GetString("lblDescription", GlobalVariables.uiLanguage) + "," + exported_asset.Description + "," + exported_asset.EnDescription + "," + exported_asset.ArabicDescription + Environment.NewLine;
+                            data = data + resourceManager.GetString("lblName", GlobalVariables.uiLanguage) + "," + exported_asset.Name + "," + exported_asset.EnName + "," + exported_asset.ArabicName +"," + exported_asset.FrName + Environment.NewLine;
+                            data = data + resourceManager.GetString("lblDescription", GlobalVariables.uiLanguage) + "," + exported_asset.Description + "," + exported_asset.EnDescription + "," + exported_asset.ArabicDescription + "," + exported_asset.FrDescription + Environment.NewLine;
                             data = data + resourceManager.GetString("lblScenarioPath", GlobalVariables.uiLanguage) + "," + exported_asset.Url + Environment.NewLine;
                             data = data + resourceManager.GetString("lblScenarioExe", GlobalVariables.uiLanguage) + "," + exported_asset.Exe + Environment.NewLine;
                             data = data + resourceManager.GetString("lblAvailable", GlobalVariables.uiLanguage) + "," + exported_asset.Available + Environment.NewLine;
 
                             for (int i = 0; i < exported_asset_commands.Count; i++)
                             {
-                                data = data + resourceManager.GetString("lblCommands", GlobalVariables.uiLanguage) + i + "," + exported_asset_commands[i].Description + "," + exported_asset_commands[i].EnDescription + "," + exported_asset_commands[i].ArabicDescription + "," + exported_asset_commands[i].CommandText + "," + exported_asset_commands[i].Step + Environment.NewLine;
+                                data = data + resourceManager.GetString("lblCommands", GlobalVariables.uiLanguage) + i + "," + exported_asset_commands[i].Description + "," + exported_asset_commands[i].EnDescription + "," + exported_asset_commands[i].ArabicDescription + ","  + exported_asset_commands[i].FrDescription + "," + exported_asset_commands[i].CommandText + "," + exported_asset_commands[i].Step + Environment.NewLine;
                             }
                             /*byte[] thumbnail= exported_asset_thumbnail.Thumbnail;
                             data = data + resourceManager.GetString("headerThumbnail", GlobalVariables.uiLanguage) + ",";

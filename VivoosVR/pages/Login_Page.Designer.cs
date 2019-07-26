@@ -43,6 +43,7 @@
             this.btnTurkish = new System.Windows.Forms.Button();
             this.btnEnglish = new System.Windows.Forms.Button();
             this.btnArabic = new System.Windows.Forms.Button();
+            this.btnFrench = new System.Windows.Forms.Button();
             this.tlpPassword = new System.Windows.Forms.TableLayoutPanel();
             this.btnChangePassword = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -211,15 +212,17 @@
             // tlpLanguages
             // 
             this.tlpLanguages.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.tlpLanguages.ColumnCount = 5;
-            this.tlpLanguages.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 65.06551F));
-            this.tlpLanguages.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 34.9345F));
-            this.tlpLanguages.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 76F));
-            this.tlpLanguages.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 78F));
-            this.tlpLanguages.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 63F));
+            this.tlpLanguages.ColumnCount = 6;
+            this.tlpLanguages.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 53.45622F));
+            this.tlpLanguages.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 46.54378F));
+            this.tlpLanguages.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 71F));
+            this.tlpLanguages.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 74F));
+            this.tlpLanguages.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 73F));
+            this.tlpLanguages.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 27F));
             this.tlpLanguages.Controls.Add(this.btnTurkish, 1, 0);
             this.tlpLanguages.Controls.Add(this.btnEnglish, 2, 0);
             this.tlpLanguages.Controls.Add(this.btnArabic, 3, 0);
+            this.tlpLanguages.Controls.Add(this.btnFrench, 4, 0);
             this.tlpLanguages.Location = new System.Drawing.Point(465, 562);
             this.tlpLanguages.Name = "tlpLanguages";
             this.tlpLanguages.RowCount = 1;
@@ -235,9 +238,9 @@
             this.btnTurkish.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnTurkish.Image = ((System.Drawing.Image)(resources.GetObject("btnTurkish.Image")));
             this.btnTurkish.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnTurkish.Location = new System.Drawing.Point(145, 3);
+            this.btnTurkish.Location = new System.Drawing.Point(120, 3);
             this.btnTurkish.Name = "btnTurkish";
-            this.btnTurkish.Size = new System.Drawing.Size(70, 60);
+            this.btnTurkish.Size = new System.Drawing.Size(67, 60);
             this.btnTurkish.TabIndex = 1;
             this.btnTurkish.Text = "Türkçe";
             this.btnTurkish.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -252,9 +255,9 @@
             this.btnEnglish.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEnglish.Image = global::VivoosVR.Properties.Resources.E_52px;
             this.btnEnglish.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnEnglish.Location = new System.Drawing.Point(221, 3);
+            this.btnEnglish.Location = new System.Drawing.Point(193, 3);
             this.btnEnglish.Name = "btnEnglish";
-            this.btnEnglish.Size = new System.Drawing.Size(70, 60);
+            this.btnEnglish.Size = new System.Drawing.Size(65, 60);
             this.btnEnglish.TabIndex = 0;
             this.btnEnglish.Text = "İngilizce";
             this.btnEnglish.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -269,20 +272,37 @@
             this.btnArabic.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnArabic.Image = global::VivoosVR.Properties.Resources.A_52px;
             this.btnArabic.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnArabic.Location = new System.Drawing.Point(298, 3);
+            this.btnArabic.Location = new System.Drawing.Point(264, 3);
             this.btnArabic.Name = "btnArabic";
-            this.btnArabic.Size = new System.Drawing.Size(71, 60);
+            this.btnArabic.Size = new System.Drawing.Size(68, 60);
             this.btnArabic.TabIndex = 2;
             this.btnArabic.Text = "Arapça";
             this.btnArabic.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnArabic.UseVisualStyleBackColor = true;
             this.btnArabic.Click += new System.EventHandler(this.btnArabic_Click);
             // 
+            // btnFrench
+            // 
+            this.btnFrench.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnFrench.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnFrench.FlatAppearance.BorderSize = 0;
+            this.btnFrench.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnFrench.Image = global::VivoosVR.Properties.Resources.fr;
+            this.btnFrench.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnFrench.Location = new System.Drawing.Point(338, 3);
+            this.btnFrench.Name = "btnFrench";
+            this.btnFrench.Size = new System.Drawing.Size(67, 60);
+            this.btnFrench.TabIndex = 3;
+            this.btnFrench.Text = "Fransızca";
+            this.btnFrench.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnFrench.UseVisualStyleBackColor = true;
+            this.btnFrench.Click += new System.EventHandler(this.btnFrench_Click);
+            // 
             // tlpPassword
             // 
             this.tlpPassword.ColumnCount = 2;
-            this.tlpPassword.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 81.88074F));
-            this.tlpPassword.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 18.11927F));
+            this.tlpPassword.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 86.69725F));
+            this.tlpPassword.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 13.30275F));
             this.tlpPassword.Controls.Add(this.btnChangePassword, 0, 0);
             this.tlpPassword.Location = new System.Drawing.Point(17, 58);
             this.tlpPassword.Name = "tlpPassword";
@@ -300,9 +320,9 @@
             this.btnChangePassword.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnChangePassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnChangePassword.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnChangePassword.Location = new System.Drawing.Point(214, 3);
+            this.btnChangePassword.Location = new System.Drawing.Point(178, 3);
             this.btnChangePassword.Name = "btnChangePassword";
-            this.btnChangePassword.Size = new System.Drawing.Size(140, 27);
+            this.btnChangePassword.Size = new System.Drawing.Size(197, 27);
             this.btnChangePassword.TabIndex = 2;
             this.btnChangePassword.Text = "Şifre Değiştir";
             this.btnChangePassword.UseVisualStyleBackColor = false;
@@ -377,6 +397,7 @@
         private System.Windows.Forms.Button btnChangePassword;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Button btnFrench;
     }
 }
 
