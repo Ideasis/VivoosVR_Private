@@ -114,6 +114,11 @@ namespace VivoosVR
                         scenarios_datagrid.Rows[i].Cells[2].Value = keyList[i].ArabicName;
                         scenarios_datagrid.Rows[i].Cells[3].Value = keyList[i].ArabicDescription;
                     }
+                    else if (Convert.ToString(GlobalVariables.uiLanguage) == "fr-FR")
+                    {
+                        scenarios_datagrid.Rows[i].Cells[2].Value = keyList[i].FrName;
+                        scenarios_datagrid.Rows[i].Cells[3].Value = keyList[i].FrDescription;
+                    }
                 }
             }
         }

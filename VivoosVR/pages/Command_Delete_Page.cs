@@ -77,6 +77,10 @@ namespace VivoosVR
                     {
                         commands_datagrid.Rows[i].Cells[1].Value = commandlist[i].ArabicDescription;
                     }
+                    else if (Convert.ToString(GlobalVariables.uiLanguage) == "fr-FR")
+                    {
+                        commands_datagrid.Rows[i].Cells[1].Value = commandlist[i].FrDescription;
+                    }
                 }
             }
         }
