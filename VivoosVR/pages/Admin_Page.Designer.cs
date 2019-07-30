@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.scenarios_datagrid = new System.Windows.Forms.DataGridView();
             this.picture = new System.Windows.Forms.DataGridViewImageColumn();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -63,14 +63,14 @@
             this.scenarios_datagrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.scenarios_datagrid.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.picture});
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.scenarios_datagrid.DefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.scenarios_datagrid.DefaultCellStyle = dataGridViewCellStyle1;
             this.scenarios_datagrid.GridColor = System.Drawing.SystemColors.AppWorkspace;
             this.scenarios_datagrid.Location = new System.Drawing.Point(0, 102);
             this.scenarios_datagrid.Name = "scenarios_datagrid";
@@ -103,7 +103,7 @@
             this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 13.24238F));
             this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 84F));
             this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 83F));
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 22F));
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 24F));
             this.tableLayoutPanel5.Controls.Add(this.btnExit, 3, 0);
             this.tableLayoutPanel5.Controls.Add(this.btnSettings, 2, 0);
             this.tableLayoutPanel5.Controls.Add(this.btnNewUser, 1, 0);
@@ -112,7 +112,7 @@
             this.tableLayoutPanel5.Name = "tableLayoutPanel5";
             this.tableLayoutPanel5.RowCount = 1;
             this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel5.Size = new System.Drawing.Size(1436, 51);
+            this.tableLayoutPanel5.Size = new System.Drawing.Size(1436, 58);
             this.tableLayoutPanel5.TabIndex = 6;
             // 
             // btnExit
@@ -124,10 +124,10 @@
             this.btnExit.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnExit.Image = global::VivoosVR.Properties.Resources.Shutdown_52px;
             this.btnExit.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnExit.Location = new System.Drawing.Point(1332, 2);
+            this.btnExit.Location = new System.Drawing.Point(1330, 2);
             this.btnExit.Margin = new System.Windows.Forms.Padding(2);
             this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(78, 47);
+            this.btnExit.Size = new System.Drawing.Size(78, 53);
             this.btnExit.TabIndex = 4;
             this.btnExit.Text = "Çıkış";
             this.btnExit.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -143,9 +143,9 @@
             this.btnSettings.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnSettings.Image = global::VivoosVR.Properties.Resources.Settings_64px;
             this.btnSettings.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnSettings.Location = new System.Drawing.Point(1249, 3);
+            this.btnSettings.Location = new System.Drawing.Point(1247, 3);
             this.btnSettings.Name = "btnSettings";
-            this.btnSettings.Size = new System.Drawing.Size(78, 45);
+            this.btnSettings.Size = new System.Drawing.Size(78, 52);
             this.btnSettings.TabIndex = 3;
             this.btnSettings.Text = "Ayarlar";
             this.btnSettings.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -161,9 +161,9 @@
             this.btnNewUser.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnNewUser.Image = global::VivoosVR.Properties.Resources.Add_User;
             this.btnNewUser.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnNewUser.Location = new System.Drawing.Point(1122, 3);
+            this.btnNewUser.Location = new System.Drawing.Point(1120, 3);
             this.btnNewUser.Name = "btnNewUser";
-            this.btnNewUser.Size = new System.Drawing.Size(121, 45);
+            this.btnNewUser.Size = new System.Drawing.Size(121, 52);
             this.btnNewUser.TabIndex = 5;
             this.btnNewUser.Text = "Yeni Kullanıcı Ekle";
             this.btnNewUser.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -186,7 +186,7 @@
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 203F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 36F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 37F));
             this.tableLayoutPanel2.Controls.Add(this.btnNewScenario, 2, 0);
             this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.tableLayoutPanel2.Location = new System.Drawing.Point(0, 2);
@@ -221,9 +221,9 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(179)))), ((int)(((byte)(66)))));
             this.panel3.Controls.Add(this.tableLayoutPanel4);
-            this.panel3.Location = new System.Drawing.Point(0, 44);
+            this.panel3.Location = new System.Drawing.Point(0, 50);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1436, 59);
+            this.panel3.Size = new System.Drawing.Size(1436, 53);
             this.panel3.TabIndex = 12;
             // 
             // tableLayoutPanel4
@@ -232,7 +232,7 @@
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 23.28767F));
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 76.71233F));
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 103F));
-            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 112F));
+            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 114F));
             this.tableLayoutPanel4.Controls.Add(this.txtSearch, 2, 0);
             this.tableLayoutPanel4.Controls.Add(this.lblSearch, 1, 0);
             this.tableLayoutPanel4.Location = new System.Drawing.Point(3, 13);
@@ -244,7 +244,7 @@
             // 
             // txtSearch
             // 
-            this.txtSearch.Location = new System.Drawing.Point(177, 3);
+            this.txtSearch.Location = new System.Drawing.Point(175, 3);
             this.txtSearch.Name = "txtSearch";
             this.txtSearch.Size = new System.Drawing.Size(95, 20);
             this.txtSearch.TabIndex = 3;
@@ -259,7 +259,7 @@
             this.lblSearch.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.lblSearch.Location = new System.Drawing.Point(43, 4);
             this.lblSearch.Name = "lblSearch";
-            this.lblSearch.Size = new System.Drawing.Size(128, 18);
+            this.lblSearch.Size = new System.Drawing.Size(126, 18);
             this.lblSearch.TabIndex = 6;
             this.lblSearch.Text = "Arama";
             this.lblSearch.TextAlign = System.Drawing.ContentAlignment.TopCenter;

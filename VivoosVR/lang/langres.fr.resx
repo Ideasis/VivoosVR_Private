@@ -121,10 +121,10 @@
     <value>Arabe</value>
   </data>
   <data name="btnBack" xml:space="preserve">
-    <value>Dos</value>
+    <value>Appuyer</value>
   </data>
   <data name="btnCancel" xml:space="preserve">
-    <value>Annulation</value>
+    <value>Annuler</value>
   </data>
   <data name="btnCancel1" xml:space="preserve">
     <value>Annuler</value>
@@ -139,13 +139,13 @@
     <value>Anglais</value>
   </data>
   <data name="btnExit" xml:space="preserve">
-    <value>Sortie</value>
+    <value>Sortir</value>
   </data>
   <data name="btnImport" xml:space="preserve">
     <value>Importer</value>
   </data>
   <data name="btnLogin" xml:space="preserve">
-    <value>Entrée</value>
+    <value>Connexion</value>
   </data>
   <data name="btnNewPatient" xml:space="preserve">
     <value>Ajouter Un Nouveau Client</value>
@@ -154,7 +154,7 @@
     <value>Ajouter Un Nouveau Scénario</value>
   </data>
   <data name="btnNewSession" xml:space="preserve">
-    <value>Nouvelle Session</value>
+    <value>Nouvelle Séance</value>
   </data>
   <data name="btnNewUser" xml:space="preserve">
     <value>Ajouter Un Nouvel Utilisateur</value>
@@ -166,19 +166,19 @@
     <value>Sélectionner Un Fichier</value>
   </data>
   <data name="btnSet" xml:space="preserve">
-    <value>Réglages</value>
+    <value>Mettre</value>
   </data>
   <data name="btnSettings" xml:space="preserve">
-    <value>Réglages</value>
+    <value>Paramètres</value>
   </data>
   <data name="btnStart" xml:space="preserve">
-    <value>Début</value>
+    <value>Démarrer</value>
   </data>
   <data name="btnTurkish" xml:space="preserve">
     <value>Turc</value>
   </data>
   <data name="formAdmin" xml:space="preserve">
-    <value>Directeur</value>
+    <value>Administrateur</value>
   </data>
   <data name="formLogin" xml:space="preserve">
     <value>Entrée</value>
@@ -190,7 +190,7 @@
     <value>Nouveau Scénario</value>
   </data>
   <data name="formNewSession" xml:space="preserve">
-    <value>Nouvelle Session</value>
+    <value>Nouvelle Séance</value>
   </data>
   <data name="formNewUser" xml:space="preserve">
     <value>Nouvel Utilisateur</value>
@@ -199,10 +199,10 @@
     <value>Page Client</value>
   </data>
   <data name="formSessionControls" xml:space="preserve">
-    <value>Contrôles De Session</value>
+    <value>Commandes de Séance</value>
   </data>
   <data name="formSessions" xml:space="preserve">
-    <value>Conversations</value>
+    <value>Séances</value>
   </data>
   <data name="headerBirthday" xml:space="preserve">
     <value>Date De Naissance</value>
@@ -214,13 +214,13 @@
     <value>Date / Heure</value>
   </data>
   <data name="headerDelete" xml:space="preserve">
-    <value>Clair</value>
+    <value>Supprimer</value>
   </data>
   <data name="headerEdit" xml:space="preserve">
-    <value>Editer</value>
+    <value>Modifier</value>
   </data>
   <data name="headerExplanation" xml:space="preserve">
-    <value>Déclaration</value>
+    <value>Explication</value>
   </data>
   <data name="headerExport" xml:space="preserve">
     <value>Exportation</value>
@@ -238,13 +238,13 @@
     <value>Scénario</value>
   </data>
   <data name="headerSession" xml:space="preserve">
-    <value>Liste De Session</value>
+    <value>Liste des Séances</value>
   </data>
   <data name="headerStep" xml:space="preserve">
     <value>Etape</value>
   </data>
   <data name="headerThumbnail" xml:space="preserve">
-    <value>Thumbnail</value>
+    <value>Vignette</value>
   </data>
   <data name="lblArabicDescription" xml:space="preserve">
     <value>Description Arabe</value>
@@ -253,13 +253,13 @@
     <value>Nom Arabe</value>
   </data>
   <data name="lblAvailable" xml:space="preserve">
-    <value>Actif</value>
+    <value>Disponible</value>
   </data>
   <data name="lblCommands" xml:space="preserve">
     <value>Commandes</value>
   </data>
   <data name="lblDescription" xml:space="preserve">
-    <value>Déclaration</value>
+    <value>Description</value>
   </data>
   <data name="lblEnglishDescription" xml:space="preserve">
     <value>Description Anglaise</value>
@@ -277,7 +277,7 @@
     <value>Neulog IP</value>
   </data>
   <data name="lblNeulogPath" xml:space="preserve">
-    <value>La Place De Neulog Dans L'ordinateur</value>
+    <value>Chemin de Neulog dans l'ordinateur</value>
   </data>
   <data name="lblNeulogPort" xml:space="preserve">
     <value>Neulog Port</value>
@@ -286,7 +286,7 @@
     <value>Nouveau Mot De Passe</value>
   </data>
   <data name="lblNewPasswordAgain" xml:space="preserve">
-    <value>Nouvelle Répétition Du Mot De Passe</value>
+    <value>Repeter Nouveau Mot de Passe</value>
   </data>
   <data name="lblOldPassword" xml:space="preserve">
     <value>Ancien Mot De Passe</value>
@@ -298,7 +298,7 @@
     <value>Nom De La Présentation</value>
   </data>
   <data name="lblResetHMD" xml:space="preserve">
-    <value>Réglages HMD</value>
+    <value>Ajuster HMD</value>
   </data>
   <data name="lblScenarioExe" xml:space="preserve">
     <value>Scénario Exe</value>
@@ -325,7 +325,7 @@
     <value>Etape</value>
   </data>
   <data name="lblThumbnail" xml:space="preserve">
-    <value>Thumbnail</value>
+    <value>Vignette</value>
   </data>
   <data name="lblTurkishDescription" xml:space="preserve">
     <value>Description Turc</value>
@@ -337,28 +337,28 @@
     <value>Nom D'utilisateur</value>
   </data>
   <data name="linkNotes" xml:space="preserve">
-    <value>Voir La Note</value>
+    <value>Afficher des Notes</value>
   </data>
   <data name="msgCannotFound" xml:space="preserve">
-    <value>pas trouvé à!</value>
+    <value>chemin introuvable</value>
   </data>
   <data name="msgCommandDeleted" xml:space="preserve">
     <value>Commande supprimée!</value>
   </data>
   <data name="msgContinue" xml:space="preserve">
-    <value>Voulez-vous continuer?</value>
+    <value>Continuer?</value>
   </data>
   <data name="msgDataCannotFound" xml:space="preserve">
     <value>Aucune donnée trouvée!</value>
   </data>
   <data name="msgDataDownloaded" xml:space="preserve">
-    <value>Données téléchargées!</value>
+    <value>Donnée téléchargé!</value>
   </data>
   <data name="msgDate" xml:space="preserve">
     <value>La date de naissance ne peut pas être plus grande qu'aujourd'hui!</value>
   </data>
   <data name="msgFields" xml:space="preserve">
-    <value>S'il vous plaît remplir tous les champs!</value>
+    <value>Remplir tous les champs!</value>
   </data>
   <data name="msgInformation" xml:space="preserve">
     <value>Informations</value>
@@ -370,22 +370,22 @@
     <value>Supprimer le client? (Toutes les sessions et les données du client seront définitivement supprimées.)</value>
   </data>
   <data name="msgIsScenarioDeleted" xml:space="preserve">
-    <value>Supprimer le script?</value>
+    <value>Supprimer le scénario?</value>
   </data>
   <data name="msgIsSessionDeleted" xml:space="preserve">
-    <value>Supprimer la session?</value>
+    <value>Supprimer la séance?</value>
   </data>
   <data name="msgNewPasswordTwice" xml:space="preserve">
     <value>Veuillez saisir votre nouveau mot de passe deux fois correctement!</value>
   </data>
   <data name="msgOldPasswordWrong" xml:space="preserve">
-    <value>Votre ancien mot de passe est faux!</value>
+    <value>Votre ancien mot de passe est incorrect!</value>
   </data>
   <data name="msgPasswordChanged" xml:space="preserve">
     <value>Mot de passe changé!</value>
   </data>
   <data name="msgPatient" xml:space="preserve">
-    <value>S'il vous plaît entrer le code client!</value>
+    <value>Entrer le code client!</value>
   </data>
   <data name="msgPatientAdded" xml:space="preserve">
     <value>Client ajouté!</value>
@@ -397,22 +397,22 @@
     <value>Informations client mises à jour!</value>
   </data>
   <data name="msgScenarioAdded" xml:space="preserve">
-    <value>Script ajouté!</value>
+    <value>Scénario ajouté!</value>
   </data>
   <data name="msgScenarioDeleted" xml:space="preserve">
-    <value>Le script a été supprimé!</value>
+    <value>Scénario supprimé!</value>
   </data>
   <data name="msgScenarioEdited" xml:space="preserve">
     <value>Scénario édité!</value>
   </data>
   <data name="msgScenarioExported" xml:space="preserve">
-    <value>Le script a été exporté!</value>
+    <value>Scénario exporté!</value>
   </data>
   <data name="msgSessionAdded" xml:space="preserve">
-    <value>Session ajoutée!</value>
+    <value>Séance ajoutée!</value>
   </data>
   <data name="msgSessionDeleted" xml:space="preserve">
-    <value>Session supprimée!</value>
+    <value>Séance supprimée!</value>
   </data>
   <data name="msgSettingsSaved" xml:space="preserve">
     <value>Paramètres enregistrés!</value>
@@ -427,7 +427,7 @@
     <value>Utilisateur non trouvé!</value>
   </data>
   <data name="msgWarning" xml:space="preserve">
-    <value>Avertissement</value>
+    <value>Alerte</value>
   </data>
   <data name="msgWrong" xml:space="preserve">
     <value>Nom d'utilisateur ou mot de passe incorrect!</value>
