@@ -441,4 +441,10 @@
   <data name="lblFrenchName" xml:space="preserve">
     <value>French Name</value>
   </data>
+  <data name="headerTime" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="headerWait" xml:space="preserve">
+    <value>Idle</value>
+  </data>
 </root>

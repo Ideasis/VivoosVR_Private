@@ -30,9 +30,9 @@ namespace VivoosVR
         public double pulse;
         public double gsr;
         public SocketClient new_socket;
-        public string data= "Zaman,Pulse,GSR,Marker,Komut,Komut Adımı,SUD";
+        public string data= resourceManager.GetString("headerTime", GlobalVariables.uiLanguage) + ",Pulse,GSR,Marker," + resourceManager.GetString("lblCommands", GlobalVariables.uiLanguage) + "," + resourceManager.GetString("headerStep", GlobalVariables.uiLanguage) + ",SUD";
         public int marker;
-        public string komut="Beklemede";
+        public string komut= resourceManager.GetString("headerWait", GlobalVariables.uiLanguage);
         public int komut_adımı=-1,SUD=0;
         public int flag = 0;
 
